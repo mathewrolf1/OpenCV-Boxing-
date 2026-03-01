@@ -1,10 +1,10 @@
 # Fight Brandon - CV Boxing
 
-Punch Out-style boxing game that uses your webcam to detect punches, blocks, and dodges. You fight an AI opponent with telegraphs, vulnerability windows, and animated GIF sprites.
+Punch Out-style boxing game that uses your webcam to detect punches and blocks. You fight an AI opponent with telegraphs, vulnerability windows, and animated GIF sprites.
 
 ## Features
 
-- **Computer vision controls**: Punch toward the camera, dodge left/right, block with a guard pose.
+- **Computer vision controls**: Punch toward the camera, block with a guard pose.
 - **Opponent AI**: Telegraphs, attacks, vulnerability windows, and hit-stun.
 - **Animated enemy**: GIF-based animations for idle, wind-up, punch, vulnerable, and hit.
 - **Full-screen toggle**: Press `F` during play.
@@ -28,21 +28,12 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## Controls
-
-- **SPACE** - Start fight (title) / Continue (round end)
-- **B** - Block (keyboard fallback)
-- **F** - Toggle fullscreen
-- **R** - Restart (game over / victory)
-- **ESC** - Quit (or exit fullscreen)
 
 ## How to Play
 
 1. **Punch** - Make a fist and punch toward the camera to attack when the opponent is hittable (green box).
-2. **Dodge** - Move your hands to the left or right side of the frame to dodge incoming punches.
-3. **Block** - Raise both hands high and close together to block. Dots turn blue when blocking.
-4. Watch for **telegraphs** - The opponent turns reddish before attacking. Dodge or block.
-5. Win 2 of 3 rounds to claim victory.
+2. **Block** - Raise both hands high and close together to block. Dots turn blue when blocking.
+3. Watch for **telegraphs** - The opponent turns reddish before attacking. Dodge or block.
 
 ## Assets
 
